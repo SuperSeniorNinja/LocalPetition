@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+
+	<link rel="apple-touch-icon" sizes="128x128" href="LocalPetition icon.png">
+	<link rel="icon" href="LocalPetition icon.png">
+	<link rel="stylesheet" href="index.css">
+	<title>Lokalpetition</title>
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+
+</head>
+
+<body>
+
+	<div id="header">
+
+
+
+
+		<p class="location" id="location">Standort <a href="filter.html"> <img id="filter"
+					src="funnel-fill.svg" /> </a> </p>
+
+
+
+
+
+		<p class="menu1 small-headlines   "> <a href="index.html">Petitionen </a>| <a href="crowdfunding-1.html">
+				<strong>Crowdfunding</strong> </a>
+		</p>
+		<p class="menu2 small-headlines "> <a href="crowdfunding-1.html"><strong>Aktiv</strong></a> | <a href="crowdfunding-3.html">Erfolgreich </a> </p>
+		<p class="last-menu small-headlines"> <a href="crowdfunding-1.html"><strong>Am nächsten </strong></a>| <a href="crowdfunding-2.html"> Neuste </a></p>
+
+
+
+
+
+
+
+
+
+	</div>
+
+	<div class="campaign">
+
+
+		<div class="campaign-header">
+			<a href="location.html"> <button class="btn btn-success button small"><img
+						class="location-marker" src="location.svg">Distanz • Zeit</button></a>
+			<a href="report.html"> <img class="report-crowdfunding-campaign" src="three-dots.svg" /> </a>
+
+
+
+			<button onclick="marked()" id="pin" class="btn btn-ghost-light marker button"> <img
+					class="marker-image" id="svg" src="pin.svg" /> </button>
+
+		</div>
+	
+		<p id="petition-titel"> Crowdfundingtitel </p>
+
+
+
+
+		<br>
+
+
+
+		<img src="Playground-Crowdfunding.jpg" class="petition-picture">
+
+
+
+		<br>
+		<br>
+
+		<p class="crowdfunding-description"> Crowdfundingbeschreibung </p>
+
+		<div class="progress donation-bar">
+			<div class="progress-bar bg-success button " id="progressbar"></div>
+		</div>
+		<p class="moneyprogress"> <span id="Donated">0</span>€ von (geforderter Betrag)</p>
+
+		<a class="linkblack" href="donators.html">
+			<p class="donors"><span id="supporter">0</span> Spender</p>
+		</a>
+
+
+		<p class="amount-p"> <input type="number" min="1" class="amount" id="input" placeholder="Betrag"><span
+				id="euros">,00€</span></p>
+
+		<button class="btn btn-success btn-lg button" onclick=addAmount() id="Donate">Spenden</button>
+
+
+		<br><br>
+		<a href="questions.html" class="linkblack">
+			<h2>Fragen <img class="questionsymbol" src="question-circle-fill.svg" /> </h2>
+		</a>
+
+		<a href="share.html"><button class="btn btn-ghost-light share-crowdfunding"> <img src="share.svg"
+					alt=""></button></a>
+
+
+
+		<a href="info.html">
+			<img class="info-image" src="info-circle.svg" /></a>
+
+	</div>
+
+
+	<nav class="nav under-navbar">
+		<a href="index.html" class="nav__link under-navitem-selected">
+			<i class="material-icons nav__icon" style="font-size: 35px;">home</i>
+			<span class="nav__text">Start</span>
+		</a>
+		<a href="search.html" class="nav__link nav__link--active under-navitem-unselected">
+			<i class="material-icons nav__icon" style="font-size: 35px;">search</i>
+			<span class="nav__text">Suche</span>
+		</a>
+		<a href="create.html" class="nav__link nav__link--active under-navitem-selected  ">
+			<i class="material-icons nav__icon" style="font-size: 55px;">add_circle_outline</i>
+			<span class="nav__text"></span>
+		</a>
+		<a href="activity.html" class="nav__link under-   under-navitem-unselected">
+			<i class="material-icons nav__icon" style="font-size: 35px;">bolt</i>
+			<span class="nav__text">Aktivität</span>
+		</a>
+		<a href="profilesettings.html" class="nav__link under-navitem-unselected">
+			<i class="material-icons nav__icon" style="font-size: 35px;">person</i>
+			<span class="nav__text">Profil</span>
+		</a>
+	</nav>
+	<script src=crowdfunding.js></script>
+
+</body>
+
+</html>

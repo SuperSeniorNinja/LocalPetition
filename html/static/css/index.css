@@ -13,7 +13,10 @@ body {
 
 .button {
   border-radius: 100px;
+  
 }
+
+
 #header {
   position: fixed;
   left: 0;
@@ -137,9 +140,10 @@ body {
 }
 .search-input {
   border-radius: 50px;
-  background-color: white;
-
-  border-color: black;
+  border-color: white;
+color: white;
+  background: url(/static/img/searchwhite.png) no-repeat scroll 7px 4px; padding-left: 30px;
+  
   border: solid 1px;
   width: 90%;
 }
@@ -216,6 +220,12 @@ body {
 }
 #petition-titel {
   clear: right;
+  font-size: 35px;
+  position: relative;
+  bottom: 10px;
+}
+#crowdfunding-titel {
+  margin-top: 15px;
   font-size: 35px;
 }
 .petition-picture {

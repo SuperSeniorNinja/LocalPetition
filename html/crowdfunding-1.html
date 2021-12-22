@@ -1,110 +1,112 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-        <title>Lokalpetition</title>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-        <link rel="apple-touch-icon" sizes="128x128" href="LocalPetition icon.png">
-        <link rel="icon" href="LocalPetition icon.png">
-        <link rel="stylesheet" href="static/css/index.css">
-        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    </head>
+    <title>Lokalpetition</title>
 
-    <body>
-        <!-- Content Start -->
-        <div id="header">
-            <p class="location" id="location"> Standort 
-                <a href="filter.html"> 
-                    <img id="filter" src="static/img/funnel-fill.svg" />
-                </a> 
-            </p>
+    <link rel="apple-touch-icon" sizes="128x128" href="LocalPetition icon.png">
+    <link rel="icon" href="LocalPetition icon.png">
+    <link rel="stylesheet" href="static/css/index.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-rqn26AG5Pj86AF4SO72RK5fyefcQ/x32DNQfChxWvbXIyXFePlEktwD18fEz+kQU" crossorigin="anonymous">
+</head>
+
+<body>
+    <!-- Content Start -->
+    <div id="header">
+        <p class="location" id="location"> Standort
+            <a href="filter.html">
+                <img id="filter" src="static/img/funnel-fill.svg" />
+            </a>
+        </p>
 
 
 
 
 
-            <p class="menu1 small-headlines   "> 
-                <a href="index.html">Petitionen</a> | 
-                <a href="crowdfunding-1.html">
-                    <strong>Crowdfunding</strong> 
-                </a>
-            </p>
+        <p class="menu1 small-headlines   ">
+            <a href="index.html">Petitionen</a> |
+            <a href="crowdfunding-1.html">
+                <strong>Crowdfunding</strong>
+            </a>
+        </p>
 
-            <p class="menu2 small-headlines "> 
-                <a href="crowdfunding-1.html">
-                    <strong>Aktiv</strong>
-                </a> | 
-                <a href="crowdfunding-3.html">Erfolgreich</a>
-            </p>
-            
-            <p class="last-menu small-headlines">
-                <a href="crowdfunding-1.html">
-                    <strong>Am nächsten </strong>
-                </a> | 
-                <a href="crowdfunding-2.html"> Neuste </a>
-            </p>
+        <p class="menu2 small-headlines ">
+            <a href="crowdfunding-1.html">
+                <strong>Aktiv</strong>
+            </a> |
+            <a href="crowdfunding-3.html">Erfolgreich</a>
+        </p>
+
+        <p class="last-menu small-headlines">
+            <a href="crowdfunding-1.html">
+                <strong>Am nächsten </strong>
+            </a> |
+            <a href="crowdfunding-2.html"> Neuste </a>
+        </p>
+    </div>
+
+    <div class="campaign">
+        <div class="campaign-header">
+            <a href="location.html">
+                <button class="btn btn-success button small">
+                    <img class="location-marker" src="static/img/location.svg">Distanz • Zeit
+                </button>
+            </a>
+            <a href="report.html">
+                <img class="report-crowdfunding-campaign" src="static/img/three-dots.svg" />
+            </a>
+
+            <button onclick="marked()" id="pin" class="btn btn-ghost-light marker button">
+                <img class="marker-image" id="svg" src="static/img/pin.svg" />
+            </button>
         </div>
 
-        <div class="campaign">
-            <div class="campaign-header">
-                <a href="location.html"> 
-                    <button class="btn btn-success button small">
-                        <img class="location-marker" src="static/img/location.svg">Distanz • Zeit 
-                    </button>
-                </a>
-                <a href="report.html"> 
-                    <img class="report-crowdfunding-campaign" src="static/img/three-dots.svg" /> 
-                </a>
+        <p id="crowdfunding-titel"> Crowdfundingtitel </p>
+        <br>
 
-                <button onclick="marked()" id="pin" class="btn btn-ghost-light marker button"> 
-                    <img class="marker-image" id="svg" src="static/img/pin.svg" /> 
-                </button>
-            </div>
-    
-            <p id="petition-titel"> Crowdfundingtitel </p>
-            <br>
+        <img src="static/img/playground_crowdfunding.jpg" class="petition-picture">
 
-            <img src="static/img/playground_crowdfunding.jpg" class="petition-picture">
+        <br>
+        <br>
 
-            <br>
-            <br>
+        <p class="crowdfunding-description"> Crowdfundingbeschreibung </p>
 
-            <p class="crowdfunding-description"> Crowdfundingbeschreibung </p>
+        <div class="progress donation-bar">
+            <div class="progress-bar bg-success button " id="progressbar"></div>
+        </div>
+        <p class="moneyprogress">
+            <span id="Donated">0</span>€ von (geforderter Betrag)
+        </p>
 
-            <div class="progress donation-bar">
-                <div class="progress-bar bg-success button " id="progressbar"></div>
-            </div>
-            <p class="moneyprogress">
-                <span id="Donated">0</span>€ von (geforderter Betrag)
-            </p>
-
-            <a class="linkblack" href="donators.html">
-                <p class="donors"><span id="supporter">0</span> Spender</p>
-            </a>
+        <a class="linkblack" href="donators.html">
+            <p class="donors"><span id="supporter">0</span> Spender</p>
+        </a>
 
 
-            <p class="amount-p"> 
-                <input type="number" min="1" class="amount" id="input" placeholder="Betrag">
-                <span id="euros">,00€</span>
-            </p>
+        <p class="amount-p">
+            <input type="number" min="1" class="amount" id="input" placeholder="Betrag">
+            <span id="euros">,00€</span>
+        </p>
 
-            <button class="btn btn-success btn-lg button" onclick=addAmount() id="Donate">Spenden</button>
-            <br>
-            <br>
-            <a href="questions.html" class="linkblack">
-                <h2> Fragen 
-                    <img class="questionsymbol" src="static/img/question-circle-fill.svg" /> 
-                </h2>
-            </a>
+        <button class="btn btn-success btn-lg button" onclick=addAmount() id="Donate">Spenden</button>
+        <br>
+        <br>
+        <a href="questions.html" class="linkblack">
+            <h2> Fragen
+                <img class="questionsymbol" src="static/img/question-circle-fill.svg" />
+            </h2>
+        </a>
 
-            <a href="share.html">
-                <button class="btn btn-ghost-light share-crowdfunding"> 
-                    <img src="static/img/share.svg" alt="">
-                </button>
-            </a>
+        <a href="share.html">
+            <button class="btn btn-ghost-light share-crowdfunding">
+                <img src="static/img/share.svg" alt="">
+            </button>
+        </a>
 
         <!-- Content End -->
 
@@ -137,5 +139,6 @@
         <script src="static/js/crowdfunding.js"></script>
         <!-- Footer End -->
 
-    </body>
+</body>
+
 </html>

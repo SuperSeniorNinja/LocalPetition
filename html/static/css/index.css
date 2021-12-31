@@ -374,6 +374,9 @@ color: white;
   overflow-x: auto;
   z-index: 1;
 }
+.profile-link {
+  color: blue;
+}
 .under-navitem-selected {
   display: flex;
   flex-direction: column;

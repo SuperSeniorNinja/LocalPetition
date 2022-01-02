@@ -332,7 +332,7 @@ color: white;
   position: relative;
   bottom: 10px;
   font-size: 35px;
-  width: 35px;
+  width: 40px;
   text-align: center;
 }
 
@@ -343,7 +343,9 @@ color: white;
   z-index: -3;
 }
 .share-button {
-  right: 6px;
+ position: relative;
+ top: 12px;
+ right: 12px;
 }
 .voting-button {
   height: 35px;
@@ -493,17 +495,17 @@ color: white;
 .linkblack {
   color: #000;
 }
+.share-crowdfunding{
+  float: right;
+  position: relative;
+  bottom: 35px;
+  right: 12px;
+}
 .questionsymbol {
   height: 32px;
   width: auto;
 }
-.share-crowdfunding {
-  float: right;
-  position: relative;
-  bottom: 45px;
-  right: 6px;
-  border-radius: 100px;
-}
+
 .info {
   margin-left: 10px;
   margin-right: 10px;

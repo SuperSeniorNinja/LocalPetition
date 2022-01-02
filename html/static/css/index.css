@@ -578,30 +578,11 @@ color: white;
   .profile-picture-fullscreen {
     width: 30%;
   }
-  .campaign-header {
+  .campaign-header, .comment-bar, .interaction-bar, .under-navbar, .search-title, .casual-header-div, .casual-menu  {
     padding-left: 150px;
     padding-right: 150px;
   }
-  .comment-bar {
-    padding-left: 150px;
-    padding-right: 150px;
-  }
-  .interaction-bar {
-    padding-left: 150px;
-    padding-right: 150px;
-  }
-  .under-navbar {
-    padding-left: 150px;
-    padding-right: 150px;
-  }
-  .search-title {
-    padding-left: 150px;
-    padding-right: 150px;
-  }
-  .casual-header-div {
-    padding-left: 150px;
-    padding-right: 150px;
-  }
+  
   .share-crowdfunding {
     margin-right: 150px;
   }
@@ -618,31 +599,11 @@ color: white;
   .profile-picture-fullscreen {
     width: 30%;
   }
-  .campaign-header {
+  .campaign-header, .interaction-bar,  .under-navbar,  .comment-bar, .search-title, .casual-header-div, .casual-menu {
     padding-left: 300px;
     padding-right: 300px;
   }
 
-  .interaction-bar {
-    padding-left: 300px;
-    padding-right: 300px;
-  }
-  .under-navbar {
-    padding-left: 300px;
-    padding-right: 300px;
-  }
-  .comment-bar {
-    padding-left: 300px;
-    padding-right: 300px;
-  }
-  .search-title {
-    padding-left: 300px;
-    padding-right: 300px;
-  }
-  .casual-header-div {
-    padding-left: 300px;
-    padding-right: 300px;
-  }
   .share-crowdfunding {
     margin-right: 300px;
   }
@@ -659,31 +620,12 @@ color: white;
   .profile-picture-fullscreen {
     width: 20%;
   }
-  .campaign-header {
+  .campaign-header,  .interaction-bar, .under-navbar, .comment-bar, .search-title, .casual-header-div, .casual-menu {
     padding-left: 450px;
     padding-right: 450px;
   }
 
-  .interaction-bar {
-    padding-left: 450px;
-    padding-right: 450px;
-  }
-  .under-navbar {
-    padding-left: 450px;
-    padding-right: 450px;
-  }
-  .comment-bar {
-    padding-left: 450px;
-    padding-right: 450px;
-  }
-  .search-title {
-    padding-left: 450px;
-    padding-right: 450px;
-  }
-  .casual-header-div {
-    padding-left: 450px;
-    padding-right: 450px;
-  }
+  
   .share-crowdfunding {
     margin-right: 450px;
   }

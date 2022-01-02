@@ -247,7 +247,7 @@ color: white;
   padding-bottom: 20px;
 }
 .campaign {
-  margin-bottom: 80px;
+  margin-bottom: 90px;
   overflow: hidden;
   margin-top: 155px;
 }
@@ -330,16 +330,17 @@ color: white;
 }
 .voting-counter-sum {
   position: relative;
-  bottom: 3px;
+  bottom: 10px;
   font-size: 35px;
-  width: 15px;
+  width: 35px;
   text-align: center;
 }
 
 .voting-counter-upanddown {
   position: relative;
-  bottom: 12px;
+  bottom: 8px;
   font-size: 35px;
+  z-index: -3;
 }
 .share-button {
   right: 6px;
@@ -459,7 +460,9 @@ color: white;
   display: flex;
   justify-content: space-between;
   position: relative;
-  top: 2px;
+  top: 8px;
+  left: 15px;
+  height: 80px;
 }
 .profile-name {
   font-size: 35px;

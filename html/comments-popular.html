@@ -43,44 +43,38 @@
 
 
             <div class="interaction-bar">
+
+
+
+
                 <div class="voting-div">
-                    <div> 
-                        <button id="Upbutton" class="btn btn-ghost-light button " onclick=Up()> 
-                            <img class="voting-button" src="static/img/arrow-up.svg">
-                        </button>
-                        
+                    <div> <img class="voting-button" id="upvotebutton" src="static/img/arrow-up.svg">
                         <a class="linkblack" href="upvoter.html">
                             <p id="upvotes" class="voting-counter-upanddown ">0</p>
                         </a>
                     </div>
-
+    
                     <p id="votes" class="voting-counter-sum">0</p>
-                    <div> 
-                        <button id="Downbutton" class="btn btn-ghost-light button" onclick=Down()>
-                            <img class="voting-button" src="static/img/arrow-down.svg" />
-                        </button>
+    
+    
+                    <div> <img class="voting-button" id="downvotebutton" src="static/img/arrow-down.svg">
                         <a class="linkblack" href="downvoter.html">
                             <p id="downvotes" class=" voting-counter-upanddown ">0</p>
                         </a>
                     </div>
                 </div>
-
+    
                 <div class="comments-div">
-                    <a href="comments.html" class="commemnts-link">
-                        <img class="comments-img" src="" />
-                    </a> 
-                    <span class="comments-counter">0</span>
+                    <a href="comments.html">
+                        <p> <img class="comments-img" src="static/img/comments.svg" />
+                    </a> <span class="comments-counter">0</span> </p>
+    
                 </div>
-
-                <div class="share-div">
-                    <a href="share.html">
-                        <button class="btn btn-ghost-light button share-button"> 
-                            <img src="static/img/share.svg" />
-                        </button> 
-                    </a>
-                </div>
+    
+    
+                <a href="share.html"> <img class="share-button" src="static/img/share.svg"></a>
+    
             </div>
-
 
         <div class="comment-bar">
             <input type="text" class="comment-input" placeholder="Kommentieren">

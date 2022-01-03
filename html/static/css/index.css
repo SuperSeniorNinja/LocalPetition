@@ -117,7 +117,7 @@ body {
 .report-crowdfunding-campaign {
   position: relative;
   top: 3px;
-  right: 47px;
+  right: 60px;
   height: 35px;
 }
 .report-comments {
@@ -207,16 +207,25 @@ color: white;
 #donation-statements {
   font-size: 30px;
 }
-.marker {
-  float: right;
-  position: relative;
-  bottom: 2px;
-  left: 5px;
-  clear: right;
-}
+
 .marker-image {
   height: 32px;
   width: auto;
+  float: right;
+  position: relative;
+  top: 3px;
+  
+  clear: right;
+}
+
+.marker-image-crowdfunding {
+
+  height: 32px;
+  width: auto;
+  float: right;
+  position: relative;
+  top: 2px;
+  clear: right;
 }
 #petition-titel {
   clear: right;

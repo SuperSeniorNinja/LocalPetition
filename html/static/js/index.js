@@ -23,19 +23,19 @@ function Up() {
     upvotecounter.innerHTML = 1;
     upvotebutton.src = upvotefull;
     upanddownvotecounter.innerHTML =
-      parseInt(upvotecounter.innerHTML) + parseInt(downvotecounter.innerHTML);
+      parseInt(upvotecounter.innerHTML) - parseInt(downvotecounter.innerHTML);
   } else if (upvotecounter.innerHTML == 1) {
     upvotecounter.innerHTML = 0;
     upvotebutton.src = upvoteempty;
     upanddownvotecounter.innerHTML =
-      parseInt(upvotecounter.innerHTML) + parseInt(downvotecounter.innerHTML);
+      parseInt(upvotecounter.innerHTML) - parseInt(downvotecounter.innerHTML);
   }
 
   if (downvotecounter.innerHTML == 1) {
     downvotecounter.innerHTML = 0;
     downvotebutton.src = downvoteempty;
     upanddownvotecounter.innerHTML =
-      parseInt(upvotecounter.innerHTML) + parseInt(downvotecounter.innerHTML);
+      parseInt(upvotecounter.innerHTML) - parseInt(downvotecounter.innerHTML);
   }
 }
 
@@ -44,19 +44,19 @@ function Down() {
     downvotecounter.innerHTML = 1;
     downvotebutton.src = downvotefull;
     upanddownvotecounter.innerHTML =
-      parseInt(upvotecounter.innerHTML) + parseInt(downvotecounter.innerHTML);
+      parseInt(upvotecounter.innerHTML) - parseInt(downvotecounter.innerHTML);
   } else if (downvotecounter.innerHTML == 1) {
     downvotecounter.innerHTML = 0;
     downvotebutton.src = downvoteempty;
     upanddownvotecounter.innerHTML =
-      parseInt(upvotecounter.innerHTML) + parseInt(downvotecounter.innerHTML);
+      parseInt(upvotecounter.innerHTML) - parseInt(downvotecounter.innerHTML);
   }
 
   if (upvotecounter.innerHTML == 1) {
     upvotecounter.innerHTML = 0;
     upvotebutton.src = upvoteempty;
     upanddownvotecounter.innerHTML =
-    parseInt(upvotecounter.innerHTML) + parseInt(downvotecounter.innerHTML);
+    parseInt(upvotecounter.innerHTML) - parseInt(downvotecounter.innerHTML);
 
   }
 }
@@ -74,12 +74,15 @@ function donate() {
   }
 }
 
+
+document.getElementById("marker-svg").addEventListener("click", marked);
+
 img_array = new Array("static/img/pin.svg", "static/img/pin-fill.svg");
 var i = 0;
 
 function marked() {
   i++;
-  document.getElementById("svg").src = img_array[i];
+  document.getElementById("marker-svg").src = img_array[i];
   if (i == img_array.length - 1) {
     i = -1;
   }

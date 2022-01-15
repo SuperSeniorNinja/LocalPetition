@@ -16,7 +16,11 @@ body {
   
 }
 
+.voter-div{
+position: relative;
+right: 10px;
 
+}
 #header {
   position: fixed;
   left: 0;
@@ -28,6 +32,12 @@ body {
   z-index: 2;
   box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 50px 50px;
+}
+.anonym {
+
+  position: relative;
+
+  left: 15px;
 }
 .range-info {
   height: 18px;
@@ -112,7 +122,7 @@ body {
 
   position: relative;
   top: 3px;
-  left: 2px;
+  left: 0px;
 }
 .report-crowdfunding-campaign {
   position: relative;
@@ -180,7 +190,7 @@ color: white;
   box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
 }
 .casual-menu {
-  margin-top: 100px;
+  margin-top: 90px;
   margin-bottom: 100px;
   overflow: hidden;
 }
@@ -189,10 +199,10 @@ color: white;
 }
 .profile-picture {
   border-radius: 100px;
-  height: 25px;
+  height: 23px;
   width: auto;
   position: relative;
-  bottom: 1px;
+  bottom: 2px;
   left: 2px;
 }
 .range-description {
@@ -570,7 +580,7 @@ color: white;
 
   .location-marker {
     position: relative;
-    bottom: 1px;
+    bottom: 2px;
     right: 3px;
   }
 }

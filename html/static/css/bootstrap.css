@@ -266,7 +266,7 @@
       }
       
       a:not([href]):not([class]),
-      a:not([href]):not([class]):hover {
+      a:not([ef]):not([class]):hover {
 	color: white;
 	text-decoration: none;
       }
@@ -714,7 +714,7 @@
 	margin-left: calc(-0.5 * var(--bs-gutter-x));
       }
       .row > * {
-	flex-shrink: 0;
+	flex-sink: 0;
 	width: 100%;
 	max-width: 100%;
 	padding-right: calc(var(--bs-gutter-x) * 0.5);
@@ -3725,6 +3725,7 @@
 	padding: 0.5rem 1rem;
 	font-size: 1.25rem;
 	border-radius: 0.3rem;
+
       }
       
       .btn-sm,

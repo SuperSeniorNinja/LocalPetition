@@ -1,5 +1,7 @@
 @import url(bootstrap.css);
 
+
+
 ::placeholder {
   color: #000000;
 }
@@ -26,7 +28,7 @@ right: 10px;
   left: 0;
   top: 0;
   width: 100%;
-  background-color: #28a745;
+  background-color: var(--bs-green);
   color: white;
   text-align: center;
   z-index: 2;
@@ -187,7 +189,7 @@ color: white;
   left: 0;
   top: 0;
   width: 100%;
-  background-color: #28a745;
+  background-color: var(--bs-green);
   color: white;
   text-align: center;
   z-index: 2;
@@ -404,8 +406,7 @@ top: 3px;
   width: 100%;
   height: 55px;
   box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
-  background-color: #28a745;
-  display: flex;
+  background-color: var(--bs-green);
   overflow-x: auto;
   z-index: 1;
 }
@@ -479,7 +480,7 @@ top: 3px;
   left: 0;
   top: 0;
   width: 100%;
-  background-color: #28a745;
+  background-color: var(--bs-green);
   color: white;
   text-align: center;
   z-index: 2;
@@ -542,6 +543,22 @@ top: 3px;
   margin-left: 10px;
   margin-right: 10px;
 }
+@media (max-width: 310px) {
+  .voting-counter-sum {
+   
+    width: 20px;
+   
+  }
+  .report-crowdfunding-campaign {
+    visibility: hidden;
+  }
+  .report-comments {
+    visibility: hidden;
+  }
+  .voting-counter-sum {
+    visibility: hidden;
+  }
+}
 @media (max-width: 349px) {
   .petition-picture {
     width: 90%;
@@ -550,7 +567,7 @@ top: 3px;
     width: 50%;
   }
   .small {
-    font-size: 14px;
+    font-size: 10px;
   }
   .small-headlines {
     font-size: 14px;

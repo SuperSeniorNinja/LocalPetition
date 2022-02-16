@@ -3189,8 +3189,8 @@
       
       .btn-success {
 	color: #fff;
-	background-color: #28a745;
-	border-color: #28a745;
+	background-color: var(--bs-green);
+	border-color: var(--bs-green);
       }
       .btn-success:hover {
 	color: #fff;
@@ -5292,10 +5292,10 @@
 	flex-direction: column;
 	justify-content: center;
 	overflow: hidden;
-	color: #28a745;
+	color: var(--bs-green);
 	text-align: center;
 	white-space: nowrap;
-	background-color: #28a745;
+	background-color: var(--bs-green);
 	transition: width 0.6s ease;
       }
       @media (prefers-reduced-motion: reduce) {
@@ -8153,7 +8153,7 @@
       
       .bg-success {
 	--bs-bg-opacity: 1;
-	background-color: #28a745;
+	background-color: var(--bs-green);
 	 
       }
       

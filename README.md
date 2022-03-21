@@ -6,7 +6,7 @@ Available on https://prototyp.lokalpetition.de
 ## Links
 - Live-Version:     https://app.onecom.io/
 - Prototype:        https://prototyp.lokalpetition.de
-- Landingpage:      http://lokalpetition.de
+- German landingpage:      http://lokalpetition.de
 - International:    http://localpetition.org
 - Linktree:         https://linktr.ee/LocalPetition
 

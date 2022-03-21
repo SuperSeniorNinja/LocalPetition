@@ -12,9 +12,11 @@ Available on https://prototyp.lokalpetition.de
 
 
 ## Social Media
-- https://www.paypal.com/donate?hosted_button_id=L4FDWZVU9AXK6
-- https://www.facebook.com/LocalPetitions
-- https://twitter.com/localpetitions
-- https://instagram.com/localpetition
+- PayPal: https://www.paypal.com/donate?hosted_button_id=L4FDWZVU9AXK6
+- Facebook: https://www.facebook.com/LocalPetitions
+- Twitter: https://twitter.com/localpetitions
+- Instagram: https://instagram.com/localpetition
+- LinkedIn: https://www.linkedin.com/company/localpetition
+
 
 

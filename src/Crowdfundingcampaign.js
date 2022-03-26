@@ -102,8 +102,8 @@ const [donators, setDonators] = useState(0);
 					<span id="Donated">0</span>€ von (geforderter Betrag)
 				</p>
 
-				<Link className="linkblack" to="/spender">
-					<p className="donors"><span id="supporter">{donators}</span> Spender</p>
+				<Link className="linkblack donors" to="/spender">
+					{donators} Spender
 				</Link>
 
 				<form onSubmit={handleSubmit}>
@@ -117,9 +117,10 @@ const [donators, setDonators] = useState(0);
 				<br />
 				<br />
 
-				<Link to="/fragen" className="fragen-crowdfunding linkblack">
-					<h2> Fragen
-					</h2>
+				<Link to="/fragen" className="fragen-crowdfunding linkblack strong">
+					Fragen
+
+				
 				</Link>
 
 				<Link to="/teilen">

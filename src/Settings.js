@@ -74,11 +74,10 @@ export const Settings = () => {
 				<Link to="/teilen"> <button
 					className="btn btn-success btn-lg button border-black"  >Freunde
 					einladen</button> </Link> <br /> <br />
-				<Link to="">  <button
-					className="btn btn-success btn-lg button border-black" >Info</button> </Link> <br /> <br />
-				<Link to=""> <button
-					className="btn btn-success btn-lg button border-black"  >Frage
-					stellen</button> </Link>
+				<a href="https://lokalpetition.de/info/">  <button
+					className="btn btn-success btn-lg button border-black" >Info</button> </a> <br /> <br />
+				<a href="https://lokalpetition.de/kontakt/"> <button
+					className="btn btn-success btn-lg button border-black"  >Kontaktiere uns</button> </a>
 				<hr />
 				<br />
 
@@ -92,7 +91,7 @@ export const Settings = () => {
 
 			</div>
 
-			<NavbarBottom classstart="under-navitem-unselected" classsearch="under-navitem-unselected" classactivity="under-navitem-unselected" classprofile="under-navitem-selected" />
+			<NavbarBottom classstart="under-navitem-unselected" classsearch="under-navitem-unselected" classactivity="under-navitem-unselected" classprofile="under-navitem-unselected" />
 
 		</div>
 	)

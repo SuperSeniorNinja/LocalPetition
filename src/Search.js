@@ -18,7 +18,7 @@ export const Search = () => {
 
 				<div className="search-title">
 
-					<input className="search-input" placeholder="  Suche" />
+					<input className="search-input" placeholder="   Suche" />
 				</div>
 
 				<p className="search-settings"> <Link to="">Petitionen </Link> | <Link to="">Crowdfundingkampagnen</Link></p>

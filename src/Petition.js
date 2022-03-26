@@ -160,8 +160,8 @@ export const Petition = (petition) => {
 			<p id="donation-statements"> Spendenzusagen: </p>
 
 
-			<Link to="/spendenzusagen" className="unterstützer-link">
-				<p id="Supporters">{supporters}</p>
+			<Link to="/spendenzusagen" id="Supporters" className="unterstützer-link">
+				{supporters}
 			</Link>
 
 			<form onSubmit={handleSubmit}>

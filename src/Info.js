@@ -18,7 +18,7 @@ export const Info = () => {
 			<Link style={{color: "black"}} to="/datenschutz"><p> <strong>Datenschutzerklärung</strong></p> </Link>
 			</div>
 
-			<NavbarBottom classstart="under-navitem-selected" classsearch="under-navitem-unselected"  classactivity="under-navitem-unselected" classprofile="under-navitem-unselected"/>
+			<NavbarBottom classstart="under-navitem-unselected" classsearch="under-navitem-unselected"  classactivity="under-navitem-unselected" classprofile="under-navitem-unselected"/>
 		</div >
 	)
 

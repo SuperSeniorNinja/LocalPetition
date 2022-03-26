@@ -1,7 +1,7 @@
-# LocalPetition
-LocalPetition is a crowdfunding platform for local governments where citizens can suggest crowdfunding campaigns in collective petitions. 
-Available on https://prototyp.lokalpetition.de .
 
+# LocalPetition
+LocalPetition is a crowdfunding platform for local governments where citizens can suggest crowdfunding campaigns in collective petitions users can vote on. 
+Available on https://prototyp.lokalpetition.de .
 
 ## Links
 - Live-Version:     https://app.onecom.io/
@@ -9,7 +9,6 @@ Available on https://prototyp.lokalpetition.de .
 - German landingpage:      http://lokalpetition.de
 - International landingpage:    http://localpetition.org
 - Linktree:         https://linktr.ee/LocalPetition
-
 
 ## Social Media
 - Facebook: https://www.facebook.com/LocalPetitions
@@ -19,6 +18,7 @@ Available on https://prototyp.lokalpetition.de .
 - 
 ## Donate to us
 - PayPal: https://www.paypal.com/donate?hosted_button_id=L4FDWZVU9AXK6
+
 
 
 

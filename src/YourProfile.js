@@ -22,7 +22,7 @@ export const YourProfile = () => {
 
 
 			<div className="casual-menu">
-				<p className="profile-name">Name  <Link to=""> <img src={require('./img/edit.svg')} /></Link> </p>
+				<p className="profile-name">Name<Link to=""><img src={require('./img/edit.svg')} /></Link> </p>
 
 
 				<br />
@@ -31,13 +31,14 @@ export const YourProfile = () => {
 
 
 				<br />
-				<Link to=""> <img src={require('./img/edit.svg')} /></Link>
+				<Link  to=""><img className="margin-bottom" src={require('./img/edit.svg')} /></Link>
 			
 				<br />
-				<Link className="profile-link" to=""><p>Link  <img src={require('./img/edit.svg')} /></p></Link>
+				<span><img className="link-profile" src={require('./img/link.svg')} /><Link className="profile-link" to="">Link <img src={require('./img/edit.svg')} /></Link></span>
+				
 
 				<p>Profilbeschreibung <Link to=""> <img src={require('./img/edit.svg')} /></Link></p>
-				<p>Standort <Link to=""> <img src={require('./img/edit.svg')} /></Link></p>
+				<p><img className="location-marker-profile" src={require('./img/location-marker-profile.svg')} />Standort <Link to=""> <img src={require('./img/edit.svg')} /></Link></p>
 			</div>
 			<NavbarBottom classstart="under-navitem-unselected" classsearch="under-navitem-unselected" classactivity="under-navitem-unselected" classprofile="under-navitem-selected" />
 		</div>

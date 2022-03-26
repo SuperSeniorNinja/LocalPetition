@@ -25,6 +25,10 @@ body {
 .single-comment {
   margin-bottom: 10px;
 }
+.activity-subsettings {
+position: relative;
+bottom: 7px;
+}
 #header {
   position: fixed;
   left: 0;
@@ -166,7 +170,7 @@ body {
   border-radius: 50px;
   border-color: white;
   color: white;
-  background: url(../img/searchwhite.png) no-repeat scroll 7px 4px;
+  background: url(../img/search.svg) no-repeat scroll 10px 6px;
   padding-left: 30px;
 
   border: solid 2px;
@@ -178,7 +182,7 @@ body {
 
   float: right;
   position: relative;
-  top: 20px;
+  top: 19px;
   right: 15px;
   z-index: 10;
 }
@@ -266,7 +270,7 @@ body {
   font-size: 35px;
 }
 .petition-picture {
-  border: 1px solid black;
+ 
   border-radius: 20px;
   width: 20%;
 }
@@ -346,7 +350,9 @@ body {
 
 .fragen-crowdfunding {
   position: relative;
-  top: 1px;
+  left: 13px;
+  bottom: 4px;
+  font-size: 25px;
 }
 
 .amount {
@@ -552,7 +558,6 @@ body {
 .share-crowdfunding {
   float: right;
   position: relative;
-  bottom: 35px;
   right: 12px;
 }
 .questionsymbol {
@@ -573,8 +578,21 @@ body {
 
 .search-input::placeholder {
   color: white;
+  font-weight: bold;
+  position: relative;
+  top: 1px;
 }
-
+.location-marker-profile{
+  position: relative;
+  bottom: 2px;
+}
+.link-profile{
+  position: relative;
+  bottom: 1px;
+}
+.margin-bottom {
+  margin-bottom: 8px;
+}
 .info {
   margin-left: 20px;
   margin-right: 20px;
@@ -623,6 +641,7 @@ body {
     visibility: hidden;
   }
 }
+
 @media (min-width: 350px) {
   .petition-picture {
     width: 80%;
@@ -651,8 +670,8 @@ body {
     width: 60%;
   }
   .info {
-    margin-left: 200px;
-    margin-right: 200px;
+    margin-left: 0px;
+    margin-right: 0px;
   }
   .donation-bar {
     margin-left: 180px;
@@ -683,8 +702,8 @@ body {
     width: 50%;
   }
   .info {
-    margin-left: 400px;
-    margin-right: 400px;
+    margin-left: 0px;
+    margin-right: 0px;
   }
   .donation-bar {
     margin-left: 330px;
@@ -714,8 +733,8 @@ body {
     width: 40%;
   }
   .info {
-    margin-left: 600px;
-    margin-right: 600px;
+    margin-left: 0px;
+    margin-right: 0px;
   }
   .donation-bar {
     margin-left: 480px;

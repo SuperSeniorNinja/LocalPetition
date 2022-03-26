@@ -33,7 +33,7 @@ export const Filter = () => {
 				<hr />
 
 
-				<h3><strong><Link to=""> <img className="range-info"
+				<h3><strong><Link to="/abstimmfilter"> <img className="range-info"
 					src={require('./img/info-circle.svg')} /></Link> Abstimmfilter: </strong></h3>
 				<br />
 				<div className="btn-group">
@@ -42,7 +42,7 @@ export const Filter = () => {
 					<button type="button" className="btn btn-success right-menu"><strong>Votes insgesamt</strong></button>
 				</div>
 				<hr />
-				<h3><strong><Link to=""> <img className="range-info"
+				<h3><strong><Link to="/erstellzeit-filter"> <img className="range-info"
 					src={require('./img/info-circle.svg')} /></Link> Erstellzeit-Filter:</strong></h3><br />
 				<div className="btn-group">
 					<button type="button" className="btn btn-success left-menu">Tag</button>

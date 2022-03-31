@@ -1,16 +1,24 @@
-# react-parcel-starter
 
-### Starting the project on localhost
+# LocalPetition
+LocalPetition is a crowdfunding platform for local governments where citizens can suggest crowdfunding campaigns in collective petitions users can vote on. 
+Available on https://prototyp.lokalpetition.de .
 
-* `npm install`
-* `npm start`
+## Links
+- Live-Version:     https://app.onecom.io/
+- Prototype:        https://prototyp.lokalpetition.de
+- German landingpage:      http://lokalpetition.de
+- International landingpage:    http://localpetition.org
+- Linktree:         https://linktr.ee/LocalPetition
 
-### Deploying th project to github-pages
+## Social Media
+- Facebook: https://www.facebook.com/LocalPetitions
+- Twitter: https://twitter.com/localpetitions
+- Instagram: https://instagram.com/localpetition
+- LinkedIn: https://www.linkedin.com/company/localpetition
+- 
+## Donate to us
+- PayPal: https://www.paypal.com/donate?hosted_button_id=L4FDWZVU9AXK6
 
-* `npm run deploy`
-* open the github pages settings of your repository and set the source branch to `gh-pages`. The branch should be created automatically.
 
-### Tools
 
-* [react](https://reactjs.org)
-* [parcel](https://parceljs.org)
+

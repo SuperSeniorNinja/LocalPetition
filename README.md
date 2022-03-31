@@ -16,7 +16,11 @@ Available on https://prototyp.lokalpetition.de .
 - Twitter: https://twitter.com/localpetitions
 - Instagram: https://instagram.com/localpetition
 - LinkedIn: https://www.linkedin.com/company/localpetition
-- 
+
+## German Social Media
+- Facebook: https://www.facebook.com/Lokalpetition
+- Instagram: https://www.instagram.com/lokalpetition/
+
 ## Donate to us
 - PayPal: https://www.paypal.com/donate?hosted_button_id=L4FDWZVU9AXK6
 

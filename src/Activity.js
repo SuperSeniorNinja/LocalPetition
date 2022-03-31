@@ -19,7 +19,7 @@ export const Activity = () => {
 
 				<Link to="/benachrichtigungseinstellungen" className="notification-settings-image-link"><img src={require('./img/notification-settings.svg')}  className="notification-settings-image" /></Link>
 				<p className="subheader-activity">
-					<Link to="/activity" ><strong> Benachrichtigungen </strong> </Link>
+					<Link to="/activity" ><strong>Benachrichtigungen</strong></Link>
 					<br />
 					<Link to="/petitionen-activity" >Petitionen</Link>
 					<br />

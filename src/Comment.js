@@ -76,60 +76,60 @@ export const Comment = (props) => {
 
 		<div className="single-comment" >
 
-			
-				<div className="campaign-header">
-					<button className="btn btn-success button small"><img className="clock" src={require('./img/clock-fill.svg')}
-				/> Zeit</button>
-					<Link to="/melden">
-						<img className="report-comments" src={require('./img/three-dots.svg')} />
+
+			<div className="campaign-header">
+				<button className="btn btn-success button small"><img className="clock" src={require('./img/clock-fill.svg')}
+				/>(Zeit)</button>
+				<Link to="/melden">
+					<img className="report-comments" src={require('./img/three-dots.svg')} />
+				</Link>
+				<div>
+					<Link to="/profil">
+						<button className="btn btn-success button small">(Erstellername)
+							<img src={require('./img/profile.png')} className="profile-picture" />
+						</button>
 					</Link>
-					<div>
-						<Link to="/profil">
-							<button className="btn btn-success button small">Erstellername
-								<img src={require('./img/profile.png')} className="profile-picture" />
-							</button>
+
+				</div>
+			</div>
+
+			<p className="comment"> {props.comment} </p>
+
+			<div className="interaction-bar">
+
+
+
+
+				<div className="voting-div">
+					<div> <img onClick={upvote} src={upvoteimage} className="voting-button" id="upvotebutton" />
+						<Link className="linkblack" to="/upvoter">
+							<p id="upvotes" className="voting-counter-upanddown ">{upvotecounter}</p>
 						</Link>
+					</div>
 
+					<p id="votes" className="voting-counter-sum">{sumcounter}</p>
+
+
+					<div> <img onClick={downvote} src={downvoteimage} className="voting-button" id="downvotebutton" />
+						<Link className="linkblack" to="/downvoter">
+							<p id="downvotes" className=" voting-counter-upanddown ">{downvotecounter}</p>
+						</Link>
 					</div>
 				</div>
 
-				<p className="comment"> {props.comment} </p>
-			
-				<div className="interaction-bar">
-
-
-
-
-					<div className="voting-div">
-						<div> <img onClick={upvote} src={upvoteimage} className="voting-button" id="upvotebutton" />
-							<Link className="linkblack" to="/upvoter">
-								<p id="upvotes" className="voting-counter-upanddown ">{upvotecounter}</p>
-							</Link>
-						</div>
-
-						<p id="votes" className="voting-counter-sum">{sumcounter}</p>
-
-
-						<div> <img onClick={downvote} src={downvoteimage} className="voting-button" id="downvotebutton" />
-							<Link className="linkblack" to="/downvoter">
-								<p id="downvotes" className=" voting-counter-upanddown ">{downvotecounter}</p>
-							</Link>
-						</div>
-					</div>
-
-					<div className="comments-div">
-						<Link to="">
-							<img src={require('./img/comments.svg')} className="comments-img" />
-							<span className="comments-counter"> 0</span> </Link>
-
-					</div>
-
-
-					<Link to="/teilen"> <img src={require('./img/share.svg')} className="share-button" /></Link>
+				<div className="comments-div">
+					<Link to="">
+						<img src={require('./img/comments.svg')} className="comments-img" />
+						<span className="comments-counter"> 0</span> </Link>
 
 				</div>
 
-			
+
+				<Link to="/teilen"> <img src={require('./img/share.svg')} className="share-button" /></Link>
+
+			</div>
+
+
 		</div >
 	)
 

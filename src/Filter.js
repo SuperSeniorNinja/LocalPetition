@@ -24,13 +24,20 @@ export const Filter = () => {
 
 			<div className="casual-menu">
 				<h3><strong>(Standort)</strong></h3><Link to="/karte"> <img src={require('./img/marker.svg')} /></Link>
-				<hr />
+				<div className="horzontal-rule-general">
+					<hr />
+
+				</div>
+
 
 
 				<h3><strong>Reichweite: </strong></h3>
-				<p> <span className="range-description">1 km</span> <input className="range" type="range" min="1" 
+				<p> <span className="range-description">1 km</span> <input className="range" type="range" min="1"
 					max="100" /> <span className="range-description">Welt</span></p>
-				<hr />
+				<div className="horzontal-rule-general">
+					<hr />
+
+				</div>
 
 
 				<h3><strong><Link to="/abstimmfilter"> <img className="range-info"
@@ -41,7 +48,11 @@ export const Filter = () => {
 
 					<button type="button" className="btn btn-success right-menu"><strong>Votes insgesamt</strong></button>
 				</div>
-				<hr />
+				<div className="horzontal-rule-general">
+					<hr />
+
+				</div>
+
 				<h3><strong><Link to="/erstellzeit-filter"> <img className="range-info"
 					src={require('./img/info-circle.svg')} /></Link> Erstellzeit-Filter:</strong></h3><br />
 				<div className="btn-group">
@@ -62,7 +73,7 @@ export const Filter = () => {
 
 
 			</div>
-			<NavbarBottom classstart="under-navitem-selected" classsearch="under-navitem-unselected"  classactivity="under-navitem-unselected" classprofile="under-navitem-unselected"/>
+			<NavbarBottom classstart="under-navitem-selected" classsearch="under-navitem-unselected" classactivity="under-navitem-unselected" classprofile="under-navitem-unselected" />
 		</div >
 	)
 

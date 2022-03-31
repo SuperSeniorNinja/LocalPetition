@@ -55,8 +55,11 @@ import { CreateAPetition } from "./CreateAPetition";
 import { Activity } from "./Activity";
 
 import { PetitionActivity } from "./PetitionActivity";
+import { PetitionActivitySupported } from "./PetitionActivitySupported";
+import { PetitionActivityCreated } from "./PetitionActivityCreated";
 
 import { CrowdfundingActivity } from "./CrowdfundingActivity";
+import { CrowdfundingActivitySupported } from "./CrowdfundingActivitySupported";
 
 import { YourProfile } from "./YourProfile";
 
@@ -124,8 +127,13 @@ ReactDOM.render(<BrowserRouter>
 		
 		<Route path="/petitionen-activity" element={<PetitionActivity />} />
 
-		
+		<Route path="/petitionen-activity-supported" element={<PetitionActivitySupported />} />
+
+		<Route path="/petitionen-activity-created" element={<PetitionActivityCreated />} />
+
 		<Route path="/crowdfunding-activity" element={<CrowdfundingActivity />} />
+
+		<Route path="/crowdfunding-activity-supported" element={<CrowdfundingActivitySupported />} />
 
 		<Route path="/dein-profil" element={<YourProfile />} />
 
@@ -144,5 +152,11 @@ ReactDOM.render(<BrowserRouter>
 		<Route path="/erstellzeit-filter" element={<CreationFilter />} />
 
 		<Route path="/benachrichtigungseinstellungen" element={<Notificationsettings />} />
+
+		
+
+		
+
+		
 	</Routes>
 </BrowserRouter>, app);

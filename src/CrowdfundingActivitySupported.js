@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 
 
-export const PetitionActivity = () => {
+export const CrowdfundingActivitySupported = () => {
 
 
 
@@ -21,12 +21,12 @@ export const PetitionActivity = () => {
 				<p className="subheader-activity">
 					<Link to="/activity" >Benachrichtigungen</Link>
 					<br />
-					<Link to="/petitionen-activity" ><strong>Petitionen</strong></Link>
+					<Link to="/petitionen-activity" >Petitionen</Link>
 					<br />
-					<Link to="/crowdfunding-activity" className="crowdfundingcampaigns-activity"  >Crowdfundingkampagnen</Link>
+					<Link to="/crowdfunding-activity" className="crowdfundingcampaigns-activity"  ><strong>Crowdfundingkampagnen</strong></Link>
 
 				</p>
-				<p className="activity-further-selectors"  > <Link to="/petitionen-activity"><strong>Markiert</strong></Link> | <Link to="/petitionen-activity-supported">Unterstützt </Link>| <Link to="/petitionen-activity-created">Erstellt</Link></p>
+				<p className="activity-further-selectors"   > <Link to="/crowdfunding-activity">Markiert</Link> | <Link to="/crowdfunding-activity-supported"><strong>Unterstützt</strong></Link></p>
 			</div>
 
 			<NavbarBottom classstart="under-navitem-unselected" classsearch="under-navitem-unselected" classactivity="under-navitem-selected" classprofile="under-navitem-unselected" />

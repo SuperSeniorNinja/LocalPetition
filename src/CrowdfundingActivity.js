@@ -19,14 +19,14 @@ export const CrowdfundingActivity = () => {
 
 				<Link to="/benachrichtigungseinstellungen" className="notification-settings-image-link"><img src={require('./img/notification-settings.svg')} className="notification-settings-image" /></Link>
 				<p className="subheader-activity">
-					<Link to="/activity" > Benachrichtigungen </Link>
+					<Link to="/activity" >Benachrichtigungen</Link>
 					<br />
 					<Link to="/petitionen-activity" >Petitionen</Link>
 					<br />
 					<Link to="/crowdfunding-activity" className="crowdfundingcampaigns-activity"  ><strong>Crowdfundingkampagnen</strong></Link>
 
 				</p>
-				
+				<p className="activity-further-selectors"   > <Link to="/crowdfunding-activity"><strong>Markiert</strong></Link> | <Link to="/crowdfunding-activity-supported">Unterstützt</Link></p>
 			</div>
 
 			<NavbarBottom classstart="under-navitem-unselected" classsearch="under-navitem-unselected" classactivity="under-navitem-selected" classprofile="under-navitem-unselected" />

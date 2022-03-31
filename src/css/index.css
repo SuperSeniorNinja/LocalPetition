@@ -26,8 +26,8 @@ body {
   margin-bottom: 10px;
 }
 .activity-subsettings {
-position: relative;
-bottom: 7px;
+  position: relative;
+  bottom: 7px;
 }
 #header {
   position: fixed;
@@ -139,7 +139,7 @@ bottom: 7px;
 .report-crowdfunding-campaign {
   position: relative;
   top: 3px;
-  right: 61px;
+  right: 61.5px;
   height: 35px;
 }
 .hidden {
@@ -270,7 +270,6 @@ bottom: 7px;
   font-size: 35px;
 }
 .petition-picture {
- 
   border-radius: 20px;
   width: 20%;
 }
@@ -323,6 +322,7 @@ bottom: 7px;
   margin-top: 15px;
   margin-left: 2px;
 }
+
 .comment-button {
   position: relative;
   top: 7px;
@@ -373,7 +373,7 @@ bottom: 7px;
   text-decoration: none;
 }
 .crowdfundingcampaigns-activity {
-  position: relative; 
+  position: relative;
   right: 20px;
 }
 #euros {
@@ -526,13 +526,14 @@ bottom: 7px;
   left: 10px;
   height: 80px;
 }
+
 .profile-name {
   font-size: 35px;
 }
 .comments-div {
   position: relative;
   top: 3px;
-  right: 35px;
+  right: 32px;
 }
 .share-div {
   position: relative;
@@ -559,6 +560,7 @@ bottom: 7px;
   float: right;
   position: relative;
   right: 12px;
+  bottom: 5px;
 }
 .questionsymbol {
   height: 32px;
@@ -575,24 +577,32 @@ bottom: 7px;
   max-width: 80%;
   border-radius: 25px;
 }
-
+.divider-horizontal-rule {
+  padding-left: 40px;
+  padding-right: 40px;
+}
 .search-input::placeholder {
   color: white;
   font-weight: bold;
   position: relative;
   top: 1px;
 }
-.location-marker-profile{
+.location-marker-profile {
   position: relative;
   bottom: 2px;
 }
-.link-profile{
+.link-profile {
   position: relative;
   bottom: 1px;
 }
 .margin-bottom {
   margin-bottom: 8px;
 }
+.activity-further-selectors {
+  position: relative;
+  bottom: 6px;
+}
+
 .info {
   margin-left: 20px;
   margin-right: 20px;
@@ -664,7 +674,15 @@ bottom: 7px;
     right: 1px;
   }
 }
+@media (min-width: 500px) {
+  .horzontal-rule-general {
+    padding-left: 100px;
+    padding-right: 100px;
 
+  }
+
+  
+}
 @media (min-width: 900px) {
   .petition-picture {
     width: 60%;
@@ -691,7 +709,22 @@ bottom: 7px;
     padding-left: 150px;
     padding-right: 150px;
   }
+  .under-navbar {
+    border-radius: 50px 50px 0px 0px;
+  }
 
+  .search-header, .casual-header-div {
+    border-radius: 0px 0px 50px 50px;
+  }
+
+  .divider-horizontal-rule {
+    padding-left: 270px;
+    padding-right: 270px;
+  }
+  .horzontal-rule-general {
+    padding-left: 150px;
+    padding-right: 150px;
+  }
   .share-crowdfunding {
     margin-right: 150px;
   }
@@ -722,7 +755,14 @@ bottom: 7px;
     padding-left: 300px;
     padding-right: 300px;
   }
-
+  .divider-horizontal-rule {
+    padding-left: 420px;
+    padding-right: 420px;
+  }
+  .horzontal-rule-general {
+    padding-left: 200px;
+    padding-right: 200px;
+  }
   .share-crowdfunding {
     margin-right: 300px;
   }
@@ -753,7 +793,14 @@ bottom: 7px;
     padding-left: 450px;
     padding-right: 450px;
   }
-
+  .divider-horizontal-rule {
+    padding-left: 570px;
+    padding-right: 570px;
+  }
+  .horzontal-rule-general {
+    padding-left: 400px;
+    padding-right: 400px;
+  }
   .share-crowdfunding {
     margin-right: 450px;
   }

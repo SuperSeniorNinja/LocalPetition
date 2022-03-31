@@ -5,7 +5,7 @@ import Spielplatz from "./img/playground_petition.jpg";
 import Parkbank from "./img/bench.jpg";
 import Sportplatz from "./img/sportsfield.jpg";
 import Radweg from "./img/bikeway.jpg";
-import { Link } from "react-router-dom"; 
+import { Link } from "react-router-dom";
 
 export const PetitionsActiveNewest = () => {
 
@@ -16,7 +16,7 @@ export const PetitionsActiveNewest = () => {
 
 
 
-				<p className="location" id="location">Standort <Link to="/filter"> <img id="filter"
+				<p className="location" id="location">(Standort)<Link to="/filter"><img id="filter"
 					src={require('./img/funnel-fill.svg')} /> </Link> </p>
 
 
@@ -40,7 +40,7 @@ export const PetitionsActiveNewest = () => {
 				<Petition titel="Sportplatz" beschreibung="Mega nicer neuer Sportplatz" bild={Sportplatz} />
 				<Petition titel="Fahrradweg" beschreibung="Bester Fahrradweg nach Mühlheim" bild={Radweg} />
 			</div>
-			<NavbarBottom classstart="under-navitem-selected" classsearch="under-navitem-unselected"  classactivity="under-navitem-unselected" classprofile="under-navitem-unselected"/>
+			<NavbarBottom classstart="under-navitem-selected" classsearch="under-navitem-unselected" classactivity="under-navitem-unselected" classprofile="under-navitem-unselected" />
 		</div>
 	)
 

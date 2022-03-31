@@ -125,12 +125,12 @@ export const Petition = (petition) => {
 		<div className="single-campaign">
 
 			<div className="campaign-header">
-				<Link to="/karte"> <button className="btn btn-success button small"><img className="location-marker" src={require('./img/location.svg')}
-				/>Distanz <img className="clock" src={require('./img/clock-fill.svg')}
-				/> Zeit</button></Link>
+				<Link to="/karte"><button className="btn btn-success button small"><img className="location-marker" src={require('./img/location.svg')}
+				/>(Distanz)<img className="clock" src={require('./img/clock-fill.svg')}
+					/>(Zeit)</button></Link>
 				<Link to="/melden"> <img src={require('./img/three-dots.svg')} className="report" /> </Link>
 				<div>
-					<Link to="/profil"><button className="btn btn-success button small">Erstellername
+					<Link to="/profil"><button className="btn btn-success button small">(Erstellername)
 						<img src={require('./img/profile.png')} className="profile-picture" />
 					</button></Link>
 					<br />
@@ -207,6 +207,9 @@ export const Petition = (petition) => {
 
 				<Link to="/teilen"> <img src={require('./img/share.svg')} className="share-button" /></Link>
 
+			</div>
+			<div className="divider-horizontal-rule">
+				<hr />
 			</div>
 		</ div>
 	)

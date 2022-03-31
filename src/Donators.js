@@ -15,9 +15,9 @@ export const Donators = () => {
 			</div>
 
 			<div className="casual-menu">
-				<p className="supporter-list" ><Link to="/profil" className="linkblack"   ><img src={require('./img/profile.png')} className="supporter-list-image" /> Name</Link> - Betrag <span className="time-supported" >Zeit</span> </p>
-				<p className="supporter-list anonymous-support " >Anonym - Betrag <span className="time-supported" >Zeit</span></p>
-				<p className="supporter-list" ><img src={require('./img/profile.png')} style={{ visibility: "hidden" }} className="supporter-list-image" /><Link to="/profil" className="linkblack"  > Name</Link> - Betrag <span className="time-supported">Zeit</span></p>
+				<p className="supporter-list" ><Link to="/profil" className="linkblack"   ><img src={require('./img/profile.png')} className="supporter-list-image" /> (Name)</Link> - (Betrag) <span className="time-supported" >(Zeit)</span> </p>
+				<p className="supporter-list anonymous-support " >Anonym - (Betrag) <span className="time-supported" >(Zeit)</span></p>
+				<p className="supporter-list" ><img src={require('./img/profile.png')} style={{ visibility: "hidden" }} className="supporter-list-image" /><Link to="/profil" className="linkblack"  > (Name)</Link> - (Betrag) <span className="time-supported">(Zeit)</span></p>
 			</div>
 
 

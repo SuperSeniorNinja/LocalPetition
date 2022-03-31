@@ -16,7 +16,7 @@ export const PetitionsAcceptedNewest = () => {
 
 
 
-				<p className="location" id="location">Standort <Link to="/filter"> <img id="filter"
+				<p className="location" id="location">(Standort)<Link to="/filter"><img id="filter"
 					src={require('./img/funnel-fill.svg')} /> </Link> </p>
 
 
@@ -37,7 +37,7 @@ export const PetitionsAcceptedNewest = () => {
 				<Petition titel="Sportplatz" beschreibung="Mega nicer neuer Sportplatz" bild={Sportplatz} />
 				<Petition titel="Fahrradweg" beschreibung="Bester Fahrradweg nach Mühlheim" bild={Radweg} />
 			</div>
-			<NavbarBottom classstart="under-navitem-selected" classsearch="under-navitem-unselected"  classactivity="under-navitem-unselected" classprofile="under-navitem-unselected"/>
+			<NavbarBottom classstart="under-navitem-selected" classsearch="under-navitem-unselected" classactivity="under-navitem-unselected" classprofile="under-navitem-unselected" />
 		</div>
 	)
 

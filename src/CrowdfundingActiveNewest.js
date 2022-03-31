@@ -13,7 +13,7 @@ export const CrowdfundingActiveNewest = () => {
 	return (
 		<div >
 			<div id="header">
-				<p className="location" id="location"> Standort <Link to="/filter">
+				<p className="location" id="location"> (Standort)<Link to="/filter">
 					<img id="filter" src={require('./img/funnel-fill.svg')} /> </Link> </p>
 
 
@@ -52,7 +52,7 @@ export const CrowdfundingActiveNewest = () => {
 				<Crowdfundingcampaign crowdfundingtitel="Spielplatz" crowdfundingpicture={Spielplatz} crowdfundingbeschreibung="Spielplatz mit Kletterspinne und Rutsche" />
 
 			</div>
-			<NavbarBottom classstart="under-navitem-selected" classsearch="under-navitem-unselected"  classactivity="under-navitem-unselected" classprofile="under-navitem-unselected"/>
+			<NavbarBottom classstart="under-navitem-selected" classsearch="under-navitem-unselected" classactivity="under-navitem-unselected" classprofile="under-navitem-unselected" />
 		</div>
 	)
 

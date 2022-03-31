@@ -21,8 +21,6 @@ export const Share = () => {
 			<div className="casual-menu">
 				<div style={{float: "right"}} >
 
-					<a href=""><button  className="btn btn-success share-button-link" >Link kopieren</button></a>
-					<br /> <br />
 					<a href="https://twitter.com/share?url=https://prototyp.lokalpetition.de" target="_blank"><button  className="btn btn-success share-button-link"  >Twitter</button></a>
 					<br /> <br />
 					<a href="whatsapp://send?text=https://prototyp.lokalpetition.de" data-action="share/whatsapp/share"><button className="btn btn-success share-button-link" >WhatsApp</button></a>

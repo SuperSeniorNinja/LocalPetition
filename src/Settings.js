@@ -55,12 +55,19 @@ export const Settings = () => {
 					<button type="button" className="btn btn-success middle-menu">Anonym</button>
 					<button type="button" className="btn btn-success right-menu">Individuell</button>
 				</div> <br /><br />
-				<hr />
+				<div className="horzontal-rule-general">
+					<hr />
+
+				</div>
 
 				<br />
 
 				<h3><strong>Wohnort: </strong></h3> <img src={require('./img/edit.svg')} />
-				<hr /><br />
+				<div className="horzontal-rule-general">
+					<hr />
+
+				</div>
+				<br />
 				<h3><strong>Bezahlmethoden: </strong></h3>
 
 				<h5>PayPal</h5>
@@ -69,7 +76,10 @@ export const Settings = () => {
 				<h5>Krypto</h5>
 
 				<br />
-				<hr />
+				<div className="horzontal-rule-general">
+					<hr />
+
+				</div>
 
 				<Link to="/teilen"> <button
 					className="btn btn-success btn-lg button border-black"  >Freunde
@@ -78,7 +88,10 @@ export const Settings = () => {
 					className="btn btn-success btn-lg button border-black" >Info</button> </a> <br /> <br />
 				<a href="https://lokalpetition.de/kontakt/"> <button
 					className="btn btn-success btn-lg button border-black"  >Kontaktiere uns</button> </a>
-				<hr />
+				<div className="horzontal-rule-general">
+					<hr />
+
+				</div>
 				<br />
 
 

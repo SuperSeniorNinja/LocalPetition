@@ -43,9 +43,12 @@ export const Notificationsettings = () => {
 							>Aus</button>
 						</div>
 					</p>
-					
-				
-					<hr />
+
+
+					<div className="horzontal-rule-general">
+						<hr />
+
+					</div>
 					<br />
 					<h3><strong>Erstellte Petitionen: </strong></h3><br />
 
@@ -91,7 +94,10 @@ export const Notificationsettings = () => {
 							>Aus</button>
 						</div>
 					</p><br />
-					<hr />
+					<div className="horzontal-rule-general">
+						<hr />
+
+					</div>
 					<br />
 					<h3><strong>Markierte Petitionen: </strong></h3><br />
 
@@ -138,7 +144,10 @@ export const Notificationsettings = () => {
 						</div>
 					</p>
 					<br />
-					<hr />
+					<div className="horzontal-rule-general">
+						<hr />
+
+					</div>
 					<br />
 					<h3><strong>Unterstützte Petitionen: </strong></h3><br />
 
@@ -184,7 +193,10 @@ export const Notificationsettings = () => {
 							>Aus</button>
 						</div>
 					</p><br />
-					<hr />
+					<div className="horzontal-rule-general">
+						<hr />
+
+					</div>
 					<br />
 					<h3><strong>Markierte Crowdfundingkampagnen: </strong></h3><br />
 
@@ -214,7 +226,10 @@ export const Notificationsettings = () => {
 						</div>
 					</p>
 					<br />
-					<hr />
+					<div className="horzontal-rule-general">
+						<hr />
+
+					</div>
 					<br />
 					<h3><strong>Unterstützte Crowdfundingkampagnen: </strong></h3><br />
 

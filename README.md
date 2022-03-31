@@ -17,8 +17,6 @@
 - Facebook: https://www.facebook.com/Lokalpetition
 - Instagram: https://www.instagram.com/lokalpetition/
 
-## PayPal
-- PayPal: https://www.paypal.com/donate?hosted_button_id=L4FDWZVU9AXK6
 
 
 

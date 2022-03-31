@@ -4,11 +4,12 @@ LocalPetition is a crowdfunding platform for local governments where citizens ca
 Available on https://prototyp.lokalpetition.de .
 
 ## Links
+- Linktree:         https://linktr.ee/LocalPetition
+
 - Live-Version:     https://app.onecom.io/
 - Prototype:        https://prototyp.lokalpetition.de
 - German landingpage:      http://lokalpetition.de
 - International landingpage:    http://localpetition.org
-- Linktree:         https://linktr.ee/LocalPetition
 
 ## Social Media
 - Facebook: https://www.facebook.com/LocalPetitions

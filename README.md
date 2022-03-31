@@ -22,7 +22,7 @@ Available on https://prototyp.lokalpetition.de .
 - Facebook: https://www.facebook.com/Lokalpetition
 - Instagram: https://www.instagram.com/lokalpetition/
 
-## Donate to us
+## PayPal Account
 - PayPal: https://www.paypal.com/donate?hosted_button_id=L4FDWZVU9AXK6
 
 

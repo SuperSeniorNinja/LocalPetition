@@ -5,10 +5,11 @@ import { useState } from "react";
 import pinimageempty from "./img/pin.svg";
 import pinimagefull from "./img/pin-fill.svg";
 
+import { ProgressBar } from 'react-bootstrap';
+
 export const Crowdfundingcampaign = (props) => {
 
 	const [pinimage, setPinimage] = useState(pinimageempty);
-
 
 	const mark = () => {
 
@@ -18,62 +19,44 @@ export const Crowdfundingcampaign = (props) => {
 		if (pinimage == pinimagefull) {
 			setPinimage(pinimageempty)
 		}
-
-
-
 	}
 
 
-	/* 	const getInputValue = (event) => {
-       
-		       const userValue = event.target.value;
-       
-		       setAmountdonated(userValue);
-       
-       	
-		       setProgressbarwidth( {  width : '50%',});
-	       };
-       
-       
-	       const donate = () => {
-       
-		       setDonators(1)
-       
-       
-       
-	       }
-	       */
-
-	/*const [donate, setDonate] = useState(0);
-	const [target, setTarget] = useState(100);
-	const [progress, setProgress] = useState(0); */
 
 
 	const [donators, setDonators] = useState(0);
-	/*const [amountdonated, setAmountdonated] = useState(0);
-	const [progressbarwidth, setProgressbarwidth] = useState(0 + "%"); 
-*/
+
+	const [amount, setAmount] = useState();
+
+	const [donation, setDonation] = useState(0);
+
+	const [percentage, setPercentage] = useState(0);
+
+
 	const handleSubmit = (e) => {
 		e.preventDefault();
-
-		/*	const number = Number(e.target.input.value);
-		
-			setDonators(1);
-			setAmountdonated((prevState) => prevState + number); */
 
 		if (donators == 0) {
 			setDonators(1)
 		}
 
+		setDonation((prevState) => prevState + Number(amount))
+
+		setPercentage(donation * 100 / 10000)
+
+		setAmount("")
+
 
 	}
+
+
 
 	return (
 		<div >
 			<div className="crowdfunding-campaign">
 				<div className="campaign-header">
 					<Link to="/karte"><button className="btn btn-success button small"><img className="location-marker" src={require('./img/location.svg')} />(Distanz)<img className="clock" src={require('./img/clock-fill.svg')} />(Zeit)
-						</button>
+					</button>
 					</Link>
 					<Link to="/melden">
 						<img className="report-crowdfunding-campaign" src={require('./img/three-dots.svg')} />
@@ -92,11 +75,9 @@ export const Crowdfundingcampaign = (props) => {
 
 				<p className="crowdfunding-description">{props.crowdfundingbeschreibung} </p>
 
-				<div className="progress donation-bar">
-					<div className="progress-bar bg-success button " id="progressbar"></div>
-				</div>
+				<ProgressBar className="donation-bar " now={percentage} />
 				<p className="moneyprogress">
-					<span id="Donated">0</span>€ von (geforderter Betrag)
+					<span id="Donated">{donation}</span>€ von (geforderter Betrag)
 				</p>
 
 				<Link className="linkblack donors" to="/spender">
@@ -105,14 +86,13 @@ export const Crowdfundingcampaign = (props) => {
 
 				<form onSubmit={handleSubmit}>
 					<p className="amount-p">
-						<input type="number" min="1" class="amount" id="input" placeholder="Betrag" required /><span
+						<input type="number" min="1" class="amount" placeholder="Betrag" value={amount} id="input"  onChange={(e) => setAmount(Number(e.target.value))} required /><span
 							id="euros">,00€</span>
 					</p>
 
 					<button className="btn btn-success btn-lg button" type="submit" id="Donate">Spenden</button>
 				</form>
 				<br />
-
 
 
 

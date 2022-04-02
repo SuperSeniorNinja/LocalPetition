@@ -20,7 +20,7 @@ body {
 }
 .voter-div {
   position: relative;
-  right: 10px;
+  right: 0px;
 }
 .single-comment {
   margin-bottom: 10px;
@@ -44,7 +44,7 @@ body {
 .anonym {
   position: relative;
 
-  left: 13px;
+  left: 22px;
 }
 .range-info {
   height: 18px;
@@ -139,7 +139,7 @@ body {
 .report-crowdfunding-campaign {
   position: relative;
   top: 3px;
-  right: 61.5px;
+  right: 66px;
   height: 35px;
 }
 .hidden {
@@ -482,7 +482,7 @@ body {
 }
 .anonymous-support {
   position: relative;
-  left: 12px;
+  left: 22px;
 }
 .location {
   font-size: 30px;
@@ -542,6 +542,7 @@ body {
 .donation-bar {
   height: 25px;
   border-radius: 100px;
+  
 }
 .moneyprogress {
   font-size: 30px;
@@ -615,7 +616,25 @@ body {
     visibility: hidden;
   }
 }
-@media (max-width: 349px) {
+@media (min-width: 350px) {
+  .petition-picture {
+    width: 80%;
+  }
+  .interaction-bar {
+    padding-left: 1px;
+    padding-right: 1px;
+  }
+  .profile-picture-fullscreen {
+    width: 45%;
+  }
+  .donation-bar {
+    margin-left: 25px;
+    margin-right: 25px;
+  }
+
+ 
+}
+@media (max-width: 370px) {
   .petition-picture {
     width: 90%;
   }
@@ -623,7 +642,7 @@ body {
     width: 50%;
   }
   .small {
-    font-size: 14px;
+    font-size: 12px;
   }
   .small-headlines {
     font-size: 14px;
@@ -652,28 +671,7 @@ body {
   }
 }
 
-@media (min-width: 350px) {
-  .petition-picture {
-    width: 80%;
-  }
-  .interaction-bar {
-    padding-left: 1px;
-    padding-right: 1px;
-  }
-  .profile-picture-fullscreen {
-    width: 45%;
-  }
-  .donation-bar {
-    margin-left: 25px;
-    margin-right: 25px;
-  }
 
-  .location-marker {
-    position: relative;
-    bottom: 2px;
-    right: 1px;
-  }
-}
 @media (min-width: 500px) {
   .horzontal-rule-general {
     padding-left: 100px;

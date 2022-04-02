@@ -23,7 +23,9 @@
   },
   "homepage": "https://github.com/getmimo/react-parcel-starter#readme",
   "dependencies": {
+    "bootstrap": "^5.1.3",
     "react": "^17.0.2",
+    "react-bootstrap": "^2.2.2",
     "react-dom": "^17.0.2",
     "react-router-dom": "^6.2.1"
   },

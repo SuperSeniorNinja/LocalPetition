@@ -29,6 +29,8 @@ export const Petition = (petition) => {
 
 	const [supporters, setSupporters] = useState(0);
 
+	const [value, setValue] = useState();
+
 
 
 
@@ -111,7 +113,7 @@ export const Petition = (petition) => {
 		}
 
 
-
+		setValue("")
 	}
 
 
@@ -165,7 +167,7 @@ export const Petition = (petition) => {
 			</Link>
 
 			<form onSubmit={handleSubmit}>
-				<p className="amount-p"> <input type="number" min="1" className="amount" id="inputAmount" placeholder="Betrag" required /><span
+				<p className="amount-p"> <input type="number" min="1" value={value} className="amount" id="inputAmount" placeholder="Betrag" required /><span
 					id="euros">,00€</span></p>
 
 

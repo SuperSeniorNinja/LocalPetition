@@ -23,6 +23,9 @@
   },
   "homepage": "https://github.com/getmimo/react-parcel-starter#readme",
   "dependencies": {
+    "@emotion/react": "^11.8.2",
+    "@emotion/styled": "^11.8.1",
+    "@mui/material": "^5.5.3",
     "bootstrap": "^5.1.3",
     "react": "^17.0.2",
     "react-bootstrap": "^2.2.2",

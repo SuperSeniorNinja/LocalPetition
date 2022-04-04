@@ -129,6 +129,20 @@ body {
 .last-menu {
   margin-bottom: 12px;
 }
+.left {
+  float: left;
+}
+.right {
+  float: right;
+}
+.notification-setting {
+  display: flex;
+  justify-content: space-between;
+  max-width: 350px;
+  padding-left: 5px;
+  margin-left: auto;
+  margin-right: auto;
+}
 .report {
   height: 35px;
 
@@ -456,6 +470,10 @@ body {
   -webkit-tap-highlight-color: transparent;
   transition: background-color 0.1s ease-in-out;
 }
+.location-marker {
+  position: relative;
+  bottom: 1px;
+}
 .under-navitem-unselected {
   display: flex;
   flex-direction: column;
@@ -513,7 +531,11 @@ body {
   z-index: 2;
   box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
 }
-
+.horzontal-rule-general {
+max-width: 350px;
+margin-left: auto;
+margin-right: auto;
+}
 .interaction-bar {
   display: flex;
   justify-content: space-between;
@@ -542,7 +564,6 @@ body {
 .donation-bar {
   height: 25px;
   border-radius: 100px;
-  
 }
 .moneyprogress {
   font-size: 30px;
@@ -556,6 +577,11 @@ body {
 }
 .linkblack {
   color: #000;
+}
+.switch {
+  position: relative;
+  bottom: 7px;
+  left: 5px;
 }
 .share-crowdfunding {
   float: right;
@@ -572,7 +598,17 @@ body {
   bottom: 1.5px;
   height: 18px;
 }
-
+.notification-settings-menu {
+  width: 300px;
+}
+.switch-special {
+  position: relative;
+  top: 7px;
+  left: 5px;
+}
+.text-align-left {
+  text-align: left;
+}
 .MapCreate {
   border: 1px solid black;
   max-width: 80%;
@@ -631,8 +667,6 @@ body {
     margin-left: 25px;
     margin-right: 25px;
   }
-
- 
 }
 @media (max-width: 370px) {
   .petition-picture {
@@ -650,6 +684,7 @@ body {
   .location-marker {
     position: relative;
     right: 1px;
+    bottom: 1px;
     height: 20px;
   }
 
@@ -672,22 +707,13 @@ body {
 }
 
 
-@media (min-width: 500px) {
-  .horzontal-rule-general {
-    padding-left: 100px;
-    padding-right: 100px;
-
-  }
-
-  
-}
 @media (min-width: 900px) {
   .petition-picture {
     width: 60%;
   }
   .info {
-    margin-left: 0px;
-    margin-right: 0px;
+    margin-left: 150px;
+    margin-right: 150px;
   }
   .donation-bar {
     margin-left: 180px;
@@ -711,7 +737,8 @@ body {
     border-radius: 50px 50px 0px 0px;
   }
 
-  .search-header, .casual-header-div {
+  .search-header,
+  .casual-header-div {
     border-radius: 0px 0px 50px 50px;
   }
 
@@ -719,10 +746,7 @@ body {
     padding-left: 270px;
     padding-right: 270px;
   }
-  .horzontal-rule-general {
-    padding-left: 150px;
-    padding-right: 150px;
-  }
+ 
   .share-crowdfunding {
     margin-right: 150px;
   }
@@ -733,8 +757,8 @@ body {
     width: 50%;
   }
   .info {
-    margin-left: 0px;
-    margin-right: 0px;
+    margin-left: 300px;
+    margin-right: 300px;
   }
   .donation-bar {
     margin-left: 330px;
@@ -757,10 +781,7 @@ body {
     padding-left: 420px;
     padding-right: 420px;
   }
-  .horzontal-rule-general {
-    padding-left: 200px;
-    padding-right: 200px;
-  }
+ 
   .share-crowdfunding {
     margin-right: 300px;
   }
@@ -771,8 +792,8 @@ body {
     width: 40%;
   }
   .info {
-    margin-left: 0px;
-    margin-right: 0px;
+    margin-left: 450px;
+    margin-right: 450px;
   }
   .donation-bar {
     margin-left: 480px;
@@ -795,10 +816,7 @@ body {
     padding-left: 570px;
     padding-right: 570px;
   }
-  .horzontal-rule-general {
-    padding-left: 400px;
-    padding-right: 400px;
-  }
+ 
   .share-crowdfunding {
     margin-right: 450px;
   }

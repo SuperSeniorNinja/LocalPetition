@@ -12,24 +12,24 @@ export const Petition = (petition) => {
 
 
 
-	const [sumcounter, setSumcounter] = useState(0);
+	const [sumcounter, setSumcounter] = useState(0)
 
 
-	const [upvotecounter, setUpvotecounter] = useState(0);
+	const [upvotecounter, setUpvotecounter] = useState(0)
 
-	const [downvotecounter, setDownvotecounter] = useState(0);
-
-
-	const [upvoteimage, setUpvoteimage] = useState(upvoteempty);
-
-	const [downvoteimage, setDownvoteimage] = useState(downvoteempty);
+	const [downvotecounter, setDownvotecounter] = useState(0)
 
 
-	const [pinimage, setPinimage] = useState(pinimageempty);
+	const [upvoteimage, setUpvoteimage] = useState(upvoteempty)
 
-	const [supporters, setSupporters] = useState(0);
+	const [downvoteimage, setDownvoteimage] = useState(downvoteempty)
 
-	const [value, setValue] = useState();
+
+	const [pinimage, setPinimage] = useState(pinimageempty)
+
+	const [supporters, setSupporters] = useState(0)
+
+	const [amount, setAmount] = useState()
 
 
 
@@ -107,13 +107,13 @@ export const Petition = (petition) => {
 
 
 	const handleSubmit = (e) => {
-		e.preventDefault();
+		e.preventDefault()
 		if (supporters == 0) {
 			setSupporters(1)
 		}
 
 
-		setValue("")
+		setAmount("")
 	}
 
 
@@ -167,7 +167,8 @@ export const Petition = (petition) => {
 			</Link>
 
 			<form onSubmit={handleSubmit}>
-				<p className="amount-p"> <input type="number" min="1" value={value} className="amount" id="inputAmount" placeholder="Betrag" required /><span
+				<p className="amount-p">
+					 <input type="number" min="1" value={amount} className="amount" id="inputAmount" placeholder="Betrag" onChange={(e) => setAmount(Number(e.target.value))} required /><span
 					id="euros">,00€</span></p>
 
 

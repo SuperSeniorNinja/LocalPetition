@@ -1,20 +1,20 @@
 
 import { NavbarBottom } from "./NavbarBottom";
 import { Comment } from "./Comment";
-
+import { useState } from "react";
 import { Link } from "react-router-dom";
 
 export const Comments = () => {
 
-
+	const [amount, setAmount] = useState()
 
 	const handleSubmit = (e) => {
-		e.preventDefault();
+		e.preventDefault()
 
 
+		setAmount("")
 
-
-	};
+	}
 
 	return (
 
@@ -29,13 +29,13 @@ export const Comments = () => {
 				</div>
 			</div>
 			<div className="comment-menu">
-			<Comment comment="Tolle Idee!" />
+				<Comment comment="Tolle Idee!" />
 
-			
+
 			</div>
 			<form onSubmit={handleSubmit}>
 				<div className="comment-bar">
-					<input type="text" className="comment-input" placeholder="Kommentieren" required />
+					<input value={amount} type="text" className="comment-input" placeholder="Kommentieren" onChange={(e) => setAmount(e.target.value)} required />
 					<button type="submit" className="btn btn-ghost-light comment-button">
 						<img className="comment-image" src={require('./img/send-comment.svg')} />
 					</button>
@@ -43,7 +43,7 @@ export const Comments = () => {
 
 			</form>
 
-			<NavbarBottom classstart="under-navitem-selected" classsearch="under-navitem-unselected"  classactivity="under-navitem-unselected" classprofile="under-navitem-unselected"/>
+			<NavbarBottom classstart="under-navitem-selected" classsearch="under-navitem-unselected" classactivity="under-navitem-unselected" classprofile="under-navitem-unselected" />
 		</div >
 	)
 

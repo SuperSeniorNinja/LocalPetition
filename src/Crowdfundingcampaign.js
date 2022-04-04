@@ -34,7 +34,7 @@ export const Crowdfundingcampaign = (props) => {
 
 
 	const handleSubmit = (e) => {
-		e.preventDefault();
+		e.preventDefault()
 
 		if (donators == 0) {
 			setDonators(1)
@@ -42,11 +42,11 @@ export const Crowdfundingcampaign = (props) => {
 
 		setDonation((prevState) => prevState + Number(amount))
 
-		setPercentage(donation * 100 / 10000)
+		
 
 		setAmount("")
 
-
+		
 	}
 
 
@@ -75,7 +75,7 @@ export const Crowdfundingcampaign = (props) => {
 
 				<p className="crowdfunding-description">{props.crowdfundingbeschreibung} </p>
 
-				<ProgressBar className="donation-bar " now={percentage} />
+				<ProgressBar className="donation-bar " now={30} />
 				<p className="moneyprogress">
 					<span id="Donated">{donation}</span>€ von (geforderter Betrag)
 				</p>
@@ -86,7 +86,7 @@ export const Crowdfundingcampaign = (props) => {
 
 				<form onSubmit={handleSubmit}>
 					<p className="amount-p">
-						<input type="number" min="1" class="amount" placeholder="Betrag" value={amount} id="input"  onChange={(e) => setAmount(Number(e.target.value))} required /><span
+						<input type="number" min="1" class="amount" placeholder="Betrag" value={amount} id="input" onChange={(e) => setAmount(Number(e.target.value))} required /><span
 							id="euros">,00€</span>
 					</p>
 

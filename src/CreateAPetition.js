@@ -1,6 +1,16 @@
 
 import { NavbarBottom } from "./NavbarBottom";
-import { Link } from "react-router-dom";
+
+import * as React from 'react';
+import { styled } from '@mui/material/styles';
+
+import IconButton from '@mui/material/IconButton';
+import PhotoCamera from '@mui/icons-material/PhotoCamera';
+
+
+const Input = styled('input')({
+	display: 'none',
+});
 
 
 
@@ -33,14 +43,25 @@ export const CreateAPetition = () => {
 					<p className="Pflichtfeld"  >* = Pflichtfeld</p>
 					<br />
 					<p className="create-titel create-font-size"  >*Titel:</p>
-					<input className="create-titel-input" maxLength="50" required/>
+					<input className="create-titel-input" maxLength="50" required />
 					<br />
 					<br />
 
-					<p className="create-font-size" >Bild/Video:</p>
-					<input type="file" className="create-image" />
-					<br />
-					<br />
+					<p className="create-font-size" >Bild:</p>
+
+
+
+					<label htmlFor="icon-button-file">
+
+						<Input accept="image/*" id="icon-button-file" type="file" />
+						<IconButton size="large" aria-label="upload picture" component="span">
+							<PhotoCamera sx={{ fontSize: 45, color: "#28a745" }} />
+						</IconButton>
+
+					</label>
+
+
+
 
 					<p className="create-font-size" >*Beschreibung:</p>
 					<textarea cols="100" className="create-description-input" rows="10" maxLength="350" required></textarea>
@@ -49,7 +70,7 @@ export const CreateAPetition = () => {
 					<br />
 
 					<p className="create-font-size" >*Standort:</p>
-					<img  src={require('./img/map_create.png')} className="MapCreate" />
+					<img src={require('./img/map_create.png')} className="MapCreate" />
 
 					<br />
 					<br />
@@ -59,7 +80,7 @@ export const CreateAPetition = () => {
 				</form>
 			</div>
 
-			<NavbarBottom classstart="under-navitem-unselected" classsearch="under-navitem-unselected"  classactivity="under-navitem-unselected" classprofile="under-navitem-unselected" />
+			<NavbarBottom classstart="under-navitem-unselected" classsearch="under-navitem-unselected" classactivity="under-navitem-unselected" classprofile="under-navitem-unselected" />
 		</div>
 	)
 

@@ -532,7 +532,7 @@ body {
   box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
 }
 .horzontal-rule-general {
-max-width: 350px;
+max-width: 375px;
 margin-left: auto;
 margin-right: auto;
 }
@@ -583,6 +583,9 @@ margin-right: auto;
   bottom: 7px;
   left: 5px;
 }
+.slider {
+ max-width: 330px;
+}
 .share-crowdfunding {
   float: right;
   position: relative;
@@ -626,11 +629,14 @@ margin-right: auto;
 }
 .location-marker-profile {
   position: relative;
-  bottom: 2px;
+
+  right: 2px;
 }
 .link-profile {
+  
   position: relative;
-  bottom: 1px;
+  right: 2px;
+  
 }
 .margin-bottom {
   margin-bottom: 8px;

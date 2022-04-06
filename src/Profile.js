@@ -17,8 +17,9 @@ export const Profile = () => {
 				<br />
 				<img src={require('./img/profile.png')} className="profile-picture-fullscreen" />
 				<br />
-				<span><img className="link-profile" src={require('./img/link.svg')} /><Link className="profile-link" to="">(Link)</Link></span>
 				<p>(Profilbeschreibung)</p>
+				<span><img className="link-profile" src={require('./img/link.svg')} /><Link className="profile-link" to="">(Link)</Link></span>
+				
 				<p><img className="location-marker-profile" src={require('./img/location-marker-profile.svg')} />(Standort)</p>
 
 

@@ -104,14 +104,14 @@ export const Notificationsettings = () => {
 
 					<h3><strong>Erstellte Petitionen: </strong></h3><br />
 					<div className="notification-setting">
-						<p ><strong>Spendenzusagen:</strong>
+						<p className='text-align-left'><strong>Spendenzusagen:</strong>
 
 						</p>
 						<IOSSwitch className="switch" sx={{ m: 1 }} defaultChecked />
 					</div>
 					
 					<div className="notification-setting">
-						<p ><strong>Abstimmungen:</strong>
+						<p className='text-align-left'><strong>Abstimmungen:</strong>
 
 						</p>
 						<IOSSwitch className="switch" sx={{ m: 1 }} defaultChecked />
@@ -122,7 +122,7 @@ export const Notificationsettings = () => {
 
 					
 					<div className="notification-setting">
-						<p ><strong>Kommentare:</strong>
+						<p className='text-align-left'><strong>Kommentare:</strong>
 
 						</p>
 						<IOSSwitch className="switch" sx={{ m: 1 }} defaultChecked />
@@ -143,14 +143,14 @@ export const Notificationsettings = () => {
 
 					
 					<div className="notification-setting">
-						<p ><strong>Spendenzusagen:</strong>
+						<p className='text-align-left'><strong>Spendenzusagen:</strong>
 
 						</p>
 						<IOSSwitch className="switch" sx={{ m: 1 }} defaultChecked />
 					</div>
 					
 					<div className="notification-setting">
-						<p ><strong>Abstimmungen:</strong>
+						<p className='text-align-left'><strong>Abstimmungen:</strong>
 
 						</p>
 						<IOSSwitch className="switch" sx={{ m: 1 }} defaultChecked />
@@ -170,13 +170,13 @@ export const Notificationsettings = () => {
 					<h3><strong>Unterstützte Petitionen: </strong></h3><br />
 
 					<div className="notification-setting">
-						<p ><strong>Spendenzusagen:</strong>
+						<p className='text-align-left'><strong>Spendenzusagen:</strong>
 
 						</p>
 						<IOSSwitch className="switch" sx={{ m: 1 }} defaultChecked />
 					</div>
 					<div className="notification-setting">
-						<p ><strong>Abstimmungen:</strong>
+						<p className='text-align-left'><strong>Abstimmungen:</strong>
 
 						</p>
 						<IOSSwitch className="switch" sx={{ m: 1 }} defaultChecked />
@@ -187,7 +187,7 @@ export const Notificationsettings = () => {
 
 
 					<div className="notification-setting">
-						<p ><strong>Kommentare:</strong>
+						<p className='text-align-left' ><strong>Kommentare:</strong>
 
 						</p>
 						<IOSSwitch className="switch" sx={{ m: 1 }} defaultChecked />
@@ -209,7 +209,7 @@ export const Notificationsettings = () => {
 
 
 					<div className="notification-setting">
-						<p ><strong>Spenden:</strong>
+						<p className='text-align-left' ><strong>Spenden:</strong>
 
 						</p>
 						<IOSSwitch className="switch" sx={{ m: 1 }} defaultChecked />
@@ -220,7 +220,7 @@ export const Notificationsettings = () => {
 
 
 					<div className="notification-setting">
-						<p ><strong>Crowdfunding erfolgreich:</strong>
+						<p className='text-align-left'><strong>Crowdfunding erfolgreich:</strong>
 
 						</p>
 						<IOSSwitch className="switch" sx={{ m: 1 }} defaultChecked />
@@ -236,7 +236,7 @@ export const Notificationsettings = () => {
 
 
 					<div className="notification-setting">
-						<p ><strong>Spenden:</strong>
+						<p className='text-align-left'><strong>Spenden:</strong>
 
 						</p>
 						<IOSSwitch className="switch" sx={{ m: 1 }} defaultChecked />
@@ -247,7 +247,7 @@ export const Notificationsettings = () => {
 
 
 					<div className="notification-setting">
-						<p ><strong>Crowdfunding erfolgreich:</strong>
+						<p className='text-align-left'><strong>Crowdfunding erfolgreich:</strong>
 
 						</p>
 						<IOSSwitch className="switch" sx={{ m: 1 }} defaultChecked />
